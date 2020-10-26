@@ -48,13 +48,13 @@ Semantic HTML refers to the use of element tags with a clear meaning to the deve
 Non-Semantic HTML elements, as you might have imagine, is tags that does not co-relate a meaning like `<div>`, `<span>`
 
 
-| Tag           | Description                                 |
-| ------------- | ------------------------------------------- |
-| <article>     | Defines independent, self-contained content |
-| <details>     | Defines content aside from the page content |
-| <figcaption>  | Defines a caption for a `<figure>` element  |
-| <figure>      | Specifies self-contained content, like illustrations, photos, etc.|
-| <footer>      | Defines a footer for a document or section  |
+| Tag             | Description                                 |
+| --------------- | ------------------------------------------- |
+| `<article>`     | Defines independent, self-contained content |
+| `<details>`     | Defines content aside from the page content |
+| `<figcaption>`  | Defines a caption for a `<figure>` element  |
+| `<figure>`      | Specifies self-contained content, like illustrations, photos, etc.|
+| `<footer>`      | Defines a footer for a document or section  |
 
 
 ## Hungry For More? 
