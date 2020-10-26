@@ -18,6 +18,10 @@ When we refer to a web site as being accessible, we mean that this site is avail
 
 W3.org has a [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG20/) that goes in-depth through a wide range of recommendations for making Web content more accessible. This accessability guidelines ensure that users with visual, auditory, physical, speech, cognitive, language, learning, and neurological disabilities can interact with the Web site just like any other user. 
 
+
+Screen readers (ChromeVox), keyboard board, head wand, mouthstick, magnification, single switch are some tool and methods users utilize to browse the web and interact with a website. 
+
+
 WCAG is organized around four principles often called by the acronym **POUR**:
 
 * **Perceivable**: Can users perceive the content? This helps us keep in mind that just because something is perceivable with one sense, such as sight, that doesn't mean that all users can perceive it.
@@ -29,14 +33,9 @@ WCAG is organized around four principles often called by the acronym **POUR**:
 * **Robust**: Can the content be consumed by a wide variety of user agents (browsers)? Does it work with assistive technology?
 
 
-
-## Screen Readers
-
 ## Semantic HTML 
 
-## Aria 
 
-## Color
 
 ## Hungry For More? 
 
