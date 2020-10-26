@@ -55,6 +55,7 @@ There is also a strong business case for accessibility. As accessability improve
 
 These are some tool and methods users utilize to browse the web and interact with a website. 
 
+
 ## Semantic HTML 
 
 Semantic HTML refers to the use of element tags with a clear meaning to the developer and browser. Some examples of semantic tags are `<form>`, `<aside>`, `<article>`, `<button>`.
@@ -73,11 +74,45 @@ Non-Semantic HTML elements, as you might have imagine, are tags that does not co
 [More on Semantics](https://developer.mozilla.org/en-US/docs/Glossary/Semantics)
 
 
-#### Semantic and Anti Patterns
+#### Anti Patterns
 
 * `<div class="button" >Not a Button</div>`
 * `<span class="checkbox"></span>`
 * `<img src="./img/tacocat.png"/>`
+
+#### Semantic Patterns
+
+* `<button class="button" >A Button</button>`
+* `<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"> <label for="vehicle1"> I have a bike</label><br>`
+* `<img src="./img/tacocat.png" alt="A junction of a cat and a taco"/>`
+
+##### Note about alt text and Screen readers
+
+* An empty `alt=""` will be skipped by screen readers
+* `alt="UPPERCASE"` screen reader will individually read letters.  
+
+
+#### Hide elements
+
+From Screen Readers: 
+* `display: none`
+* `visibility: hidden`
+* `input hidden />` 
+
+From users: 
+
+* Approach used by Twitter
+
+```
+.screenreader{
+    position: absolute; 
+    left: -10000px;
+    width: 1px; 
+    height: 1px; 
+    overflow: hidden; 
+}
+
+```
 
 
 ## Hungry For More? 
@@ -87,3 +122,4 @@ Here you have extra readings with real world example of what accessability is al
 * [Google](https://developers.google.com/web/fundamentals/accessibility)
 * [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG20/)
 * [W3C accessability Fundamentals](https://www.w3.org/WAI/fundamentals/)
+* [Skip Links](https://webaim.org/techniques/skipnav/)
