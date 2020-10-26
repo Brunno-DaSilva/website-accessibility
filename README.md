@@ -32,9 +32,9 @@ WCAG is organized around four principles often called by the acronym **POUR**:
 
 Why Accessibility? Because it supports social inclusion for people with disabilities as well as others, such as:
 
-* older people
-* people in rural areas
-* people in developing countries
+* Older people
+* People in rural areas
+* People in developing countries
 
 
 There is also a strong business case for accessibility. As accessability improve user satisfaction
@@ -48,7 +48,7 @@ General information on business benefits is in The Business Case for Digital Acc
 Guidance on figuring out legal requirements is in the archived Legal and Policy Factors.
 ```
 
-Watch Video from [W3C](https://www.w3.org/WAI/videos/standards-and-benefits/):  [Introduction to Web Accessibility and W3C Standards](https://www.youtube.com/watch?v=20SHvU2PKsM)
+Watch Video from [W3C](https://www.w3.org/WAI/videos/standards-and-benefits/): [Introduction to Web Accessibility and W3C Standards](https://www.youtube.com/watch?v=20SHvU2PKsM)
 
 ## Tools and Methods to browse the Web
 
