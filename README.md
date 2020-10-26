@@ -45,7 +45,7 @@ These are some tool and methods users utilize to browse the web and interact wit
 
 Semantic HTML refers to the use of element tags with a clear meaning to the developer and browser. Some examples of semantic tags are `<form>`, `<aside>`, `<article>`, `<button>`
 
-Non-Semantic HTML elements, as you might have imagine, is tags that does not co-relate a meaning like `<div>`, `<span>`
+Non-Semantic HTML elements, as you might have imagine, are tags that does not co-relate a meaning, like `<div>`, `<span>`
 
 
 | Tag             | Description                                 |
@@ -56,10 +56,11 @@ Non-Semantic HTML elements, as you might have imagine, is tags that does not co-
 | `<figure>`      | Specifies self-contained content, like illustrations, photos, etc.|
 | `<footer>`      | Defines a footer for a document or section  |
 
+[More on Semantics](https://developer.mozilla.org/en-US/docs/Glossary/Semantics)
 
 ## Hungry For More? 
 
 Here you have extra readings with real world example of what accessability is all about and how you can implement it in your projects going forward. 
 
-* [Google]('https://developers.google.com/web/fundamentals/accessibility')
+* [Google](https://developers.google.com/web/fundamentals/accessibility)
 * [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG20/)
