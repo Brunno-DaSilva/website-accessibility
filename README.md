@@ -37,18 +37,13 @@ Why Accessibility? Because it supports social inclusion for people with disabili
 * People in developing countries
 
 
-There is also a strong business case for accessibility. As accessability improve user satisfaction
+There is also a strong business case for accessibility. As accessability improves overall user experience and satisfaction across multiple devices.  
+
+**Also in many cases Web accessibility is required by law.**
 
 
-**Web accessibility is required by law in many situations.**
+[W3C](https://www.w3.org/WAI/videos/standards-and-benefits/) provides a great introductory video [Introduction to Web Accessibility and W3C Standards](https://www.youtube.com/watch?v=20SHvU2PKsM)
 
-```
-More Info on Accessibility is Important
-General information on business benefits is in The Business Case for Digital Accessibility.
-Guidance on figuring out legal requirements is in the archived Legal and Policy Factors.
-```
-
-Watch Video from [W3C](https://www.w3.org/WAI/videos/standards-and-benefits/): [Introduction to Web Accessibility and W3C Standards](https://www.youtube.com/watch?v=20SHvU2PKsM)
 
 ## Tools and Methods to browse the Web
 
