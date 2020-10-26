@@ -14,7 +14,7 @@ Prerequisites:  HTML & CSS <br>
 
 ## Accessability for the Web
 
-When we refer to a web site as being accessible, we mean that this site is available to anyone. Web site accessability, refers to the ability of an user to interact with the web site differently from the narrow range of the "typical" user scenario, specially users with some type of impairment or disability.
+When we refer to a web site as being accessible, we mean that this site is available to anyone. Web site accessability, refers to the ability of an user to interact with the web site differently from the narrow range of the "typical" user scenario, specially users with some type of impairment or disability. 
 
 W3.org has a [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG20/) that goes in-depth through a wide range of recommendations for making Web content more accessible. This accessability guidelines ensure that users with visual, auditory, physical, speech, cognitive, language, learning, and neurological disabilities can interact with the Web site just like any other user. 
 
@@ -38,4 +38,9 @@ WCAG is organized around four principles often called by the acronym **POUR**:
 
 ## Color
 
+## Hungry For More? 
 
+Here you have extra readings with real world example of what accessability is all about and how you can implement it in your projects going forward. 
+
+* [Google]('https://developers.google.com/web/fundamentals/accessibility')
+* [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG20/)
