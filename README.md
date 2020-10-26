@@ -19,9 +19,6 @@ When we refer to a web site as being accessible, we mean that this site is avail
 W3.org has a [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG20/) that goes in-depth through a wide range of recommendations for making Web content more accessible. This accessability guidelines ensure that users with visual, auditory, physical, speech, cognitive, language, learning, and neurological disabilities can interact with the Web site just like any other user. 
 
 
-Screen readers (ChromeVox), keyboard board, head wand, mouthstick, magnification, single switch are some tool and methods users utilize to browse the web and interact with a website. 
-
-
 WCAG is organized around four principles often called by the acronym **POUR**:
 
 * **Perceivable**: Can users perceive the content? This helps us keep in mind that just because something is perceivable with one sense, such as sight, that doesn't mean that all users can perceive it.
@@ -33,8 +30,31 @@ WCAG is organized around four principles often called by the acronym **POUR**:
 * **Robust**: Can the content be consumed by a wide variety of user agents (browsers)? Does it work with assistive technology?
 
 
+
+## Tools and Methods to browse the Web
+
+* Screen readers (ex. ChromeVox) 
+* Keyboard board, 
+* Head wand and/or Mouthstick
+* Magnification 
+* Single switch 
+
+These are some tool and methods users utilize to browse the web and interact with a website. 
+
 ## Semantic HTML 
 
+Semantic HTML refers to the use of element tags with a clear meaning to the developer and browser. Some examples of semantic tags are `<form>`, `<aside>`, `<article>`, `<button>`
+
+Non-Semantic HTML elements, as you might have imagine, is tags that does not co-relate a meaning like `<div>`, `<span>`
+
+
+| Tag           | Description                                 |
+| ------------- | ------------------------------------------- |
+| <article>     | Defines independent, self-contained content |
+| <details>     | Defines content aside from the page content |
+| <figcaption>  | Defines a caption for a `<figure>` element  |
+| <figure>      | Specifies self-contained content, like illustrations, photos, etc.|
+| <footer>      | Defines a footer for a document or section  |
 
 
 ## Hungry For More? 
