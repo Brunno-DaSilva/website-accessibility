@@ -193,6 +193,41 @@ Roles describe structures that organize content in a page. If defining a type of
 <div role="article"> Some content</div>
 ```
 
+
+### Aria DescribeBy
+
+
+[Example of Aria-describeBy](https://codepen.io/bruno-dasilva/pen/vYKxMdb?editors=1100)
+
+HTML
+```
+<button aria-label="Close" aria-describedby="descriptionClose" 
+    onclick="myDialog.close()">X</button>
+
+<div id="descriptionClose">
+Closing this window will 
+ discard any information entered 
+ and return you back to the main page</div>
+```
+
+CSS
+```
+#descriptionClose{
+  position: absolute; 
+    left: -10000px;
+    width: 1px; 
+    height: 1px; 
+    overflow: hidden; 
+}
+
+```
+
+
+## Colors
+
+
+
+
 ## Hungry For More? 
 
 Here you have extra readings with real world example of what accessability is all about and how you can implement it in your projects going forward. 
