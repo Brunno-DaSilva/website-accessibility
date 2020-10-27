@@ -143,10 +143,12 @@ From users:
   </div>
  ```
 
- ##### What is Aria? 
+ ## What is Aria? 
  
  Accessible Rich Internet Applications ([ARIA](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA)) is a set of attributes that define ways to make web content and web applications (especially those developed with JavaScript) more accessible to people with disabilities.
 
+
+ ### Aria Labelledby
 
  [Example of Aria-labelledby](https://codepen.io/bruno-dasilva/pen/PozpLGQ?editors=0100)
 
@@ -225,6 +227,27 @@ CSS
 
 ## Colors
 
+The color contrast between text and background is extremely important for web pages to meet basic accessibility standards. It affects some user's ability to perceive the information presented.
+
+[The Bureau of Internet Accessibility](https://www.boia.org/blog/the-basics-and-importance-of-color-contrast-for-web-accessibility) has some really good practical advice for utilizing colors while building for the web. 
+
+* Don’t forget about navigational elements, footnote regions, menus, or any area people will see or interact with. All of these features need to be visible in order to be usable.
+  
+* Consider color contrast when creating brand colors and color palettes. If designers don’t have accessible color combinations to work with, it will be difficult for them to deliver compliant designs.
+  
+* Review and test colors in the design phase before a product goes to development. This helps prevent unnecessary re-work and allows more time to make any needed revisions.
+
+
+#### Technical Recommendation from WebAIM
+
+The WebAIM guidelines recommend an AA (minimum) contrast ratio of 4.5:1 for all text. An exception is made for very large text (120-150% larger than the default body text), for which the ratio can go down to 3:1. Notice the difference in the contrast ratios shown below.
+
+
+### Color contrast tools: 
+
+* [No Coffee](https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl?hl=en-US)
+
+* [High Contrast](https://chrome.google.com/webstore/detail/high-contrast/djcfdncoelnlbldjfhinnjlhdjlikmph)
 
 
 
