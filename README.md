@@ -154,16 +154,17 @@ From users:
 
 
  ```
-  <section id="main-section"> 
+<section id="main-section"> 
    <div id="galaxyBillingId">
-    <h2>Billing Address</h2>
+        <h2>Billing Address</h2>
    </div>
-  <div>
-    <div id="userNameId">
-      <p>Name</p>
+
+   <div>
+        <div id="userNameId">
+            <p>Name</p>
+        </div>
+        <input type="text" aria-labelledby="galaxyBillingId userNameId"/>
     </div>
-    <input type="text" aria-labelledby="galaxyBillingId userNameId"/>
-  </div>
   <div>
     <div id="userAddressId">
       <p>Address</p>
@@ -248,6 +249,8 @@ The WebAIM guidelines recommend an AA (minimum) contrast ratio of 4.5:1 for all 
 * [No Coffee](https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl?hl=en-US)
 
 * [High Contrast](https://chrome.google.com/webstore/detail/high-contrast/djcfdncoelnlbldjfhinnjlhdjlikmph)
+  
+* [Design Seeds](https://www.design-seeds.com/)
 
 
 
