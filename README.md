@@ -86,10 +86,25 @@ Non-Semantic HTML elements, as you might have imagine, are tags that does not co
 * `<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"> <label for="vehicle1"> I have a bike</label><br>`
 * `<img src="./img/tacocat.png" alt="A junction of a cat and a taco"/>`
 
-##### Note about alt text and Screen readers
+
+## Screen Reader and Semantic HTML
+
+As we learned above, assistive technologies are a fundamental component when building an accessible web. Here we are going to focus on screen readers and how they behave on your page. 
+
+
+One popular example of screen reader is [GoogleVox](https://chrome.google.com/webstore/detail/chromevox-classic-extensi/kgejglhpjiefppelpmljglcjbhoiplfn?hl=en) 
+
+
+### Alt Text
+
+It specifies an alternative text for an image, if the image cannot be displayed or if the user is utilizing a screen reader. 
+
+##### alt text and Screen readers
 
 * An empty `alt=""` will be skipped by screen readers
 * `alt="UPPERCASE"` screen reader will individually read letters.  
+* Text should describe if the image contains information
+* Avoid redundant text like 'This is an image'  
 
 
 #### Hide elements
@@ -100,7 +115,6 @@ From Screen Readers:
 * `input hidden />` 
 
 From users: 
-
 * Approach used by Twitter
 
 ```
@@ -113,6 +127,58 @@ From users:
 }
 
 ```
+
+### Label and Aria Labels
+
+
+[Example of Label](https://codepen.io/bruno-dasilva/pen/wvWJNRP)
+
+ ```
+  <div>
+    <input type="radio" name="yoda" id="jedi" value="yoda">
+    <label for="yoda">Yoda 💚</label>
+    <br>
+    <input type="radio" name="vader" id="vader" value="vader">
+    <label for="vader">Darth Vader</label>
+  </div>
+ ```
+
+ ##### What is Aria? 
+ 
+ Accessible Rich Internet Applications ([ARIA](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA)) is a set of attributes that define ways to make web content and web applications (especially those developed with JavaScript) more accessible to people with disabilities.
+
+
+ [Example of Aria-labelledby](https://codepen.io/bruno-dasilva/pen/PozpLGQ?editors=0100)
+
+
+ ```
+  <section id="main-section"> 
+   <div id="galaxyBillingId">
+    <h2>Billing Address</h2>
+   </div>
+  <div>
+    <div id="userNameId">
+      <p>Name</p>
+    </div>
+    <input type="text" aria-labelledby="galaxyBillingId userNameId"/>
+  </div>
+  <div>
+    <div id="userAddressId">
+      <p>Address</p>
+    </div>
+    <input type="text" aria-labelledby="galaxyBillingId userAddressId"/>
+  </div>
+  
+  <div id="btn-holderId">
+    <button type="text" 
+            aria-labelledby="btn-holderId" 
+            aria-label="Submit the form"> 
+      Submit Form
+    </button>
+  </div>  
+</section>
+ ```
+
 
 
 ## Hungry For More? 
