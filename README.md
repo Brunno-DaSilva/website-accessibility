@@ -179,7 +179,19 @@ From users:
 </section>
  ```
 
+### Aria Role
 
+Roles describe structures that organize content in a page. If defining a type of user interface element is not possible with HTML semantics developers must assign an ARIA role and the appropriate states and properties to an element. ARIA semantics only exposes extra information to a browser's accessibility API, and does not affect a page's DOM.
+
+```
+<article role="article"> Some content</article>
+```
+
+**Note** although it seems redundant grant role to a semantic HTML tag old browser will actually translate the code above as:
+
+```
+<div role="article"> Some content</div>
+```
 
 ## Hungry For More? 
 
