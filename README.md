@@ -258,7 +258,8 @@ The WebAIM guidelines recommend an AA (minimum) contrast ratio of 4.5:1 for all 
 
 Here you have extra readings with real world example of what accessability is all about and how you can implement it in your projects going forward. 
 
-* [Google](https://developers.google.com/web/fundamentals/accessibility)
+* [Google Accessability Fundamentals](https://developers.google.com/web/fundamentals/accessibility)
 * [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG20/)
 * [W3C accessability Fundamentals](https://www.w3.org/WAI/fundamentals/)
-* [Skip Links](https://webaim.org/techniques/skipnav/)
+* [Skip Links Technique](https://webaim.org/techniques/skipnav/)
+
