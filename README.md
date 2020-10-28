@@ -12,7 +12,7 @@ Prerequisites:  HTML & CSS <br>
 # Warm Up Exercise
 
 
-## Accessability for the Web
+## Intro to Accessability for the Web
 
 When we refer to a web site as being accessible, we mean that this site is available to anyone. Web site accessability, refers to the ability of an user to interact with the web site differently from the narrow range of the "typical" user scenario, specially users with some type of impairment or disability. A site is accessible when people can perceive, understand, navigate, and interact with it.
 
