@@ -12,11 +12,11 @@ Prerequisites:  HTML & CSS <br>
 # Warm Up Exercise
 
 
-## Intro to Accessability for the Web
+## Intro to Accessibility for the Web
 
-When we refer to a web site as being accessible, we mean that this site is available to anyone. Web site accessability, refers to the ability of an user to interact with the web site differently from the narrow range of the "typical" user scenario, specially users with some type of impairment or disability. A site is accessible when people can perceive, understand, navigate, and interact with it.
+When we refer to a web site as being accessible, we mean that this site is available to anyone. Web site accessibility, refers to the ability of an user to interact with the web site differently from the narrow range of the "typical" user scenario, specially users with some type of impairment or disability. A site is accessible when people can perceive, understand, navigate, and interact with it.
 
-W3.org has a [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG20/) that goes in-depth through a wide range of recommendations for making web content more accessible. This accessability guidelines ensure that users with visual, auditory, physical, speech, cognitive, language, learning, and neurological disabilities can interact with the Web site just like any other user. 
+W3.org has a [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG20/) that goes in-depth through a wide range of recommendations for making web content more accessible. This accessibility guidelines ensure that users with visual, auditory, physical, speech, cognitive, language, learning, and neurological disabilities can interact with the Web site just like any other user. 
 
 
 WCAG is organized around four principles often called by the acronym **POUR**:
@@ -37,7 +37,7 @@ Why Accessibility? Because it supports social inclusion for people with disabili
 * People in developing countries
 
 
-There is also a strong business case for accessibility. As accessability improves overall user experience and satisfaction across multiple devices.  
+There is also a strong business case for accessibility. As accessibility improves overall user experience and satisfaction across multiple devices.  
 
 **Also in many cases Web accessibility is required by law.**
 
@@ -256,10 +256,10 @@ The WebAIM guidelines recommend an AA (minimum) contrast ratio of 4.5:1 for all 
 
 ## Hungry For More? 
 
-Here you have extra readings with real world example of what accessability is all about and how you can implement it in your projects going forward. 
+Here you have extra readings with real world example of what accessibility is all about and how you can implement it in your projects going forward. 
 
-* [Google Accessability Fundamentals](https://developers.google.com/web/fundamentals/accessibility)
+* [Google Accessibility Fundamentals](https://developers.google.com/web/fundamentals/accessibility)
 * [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG20/)
-* [W3C accessability Fundamentals](https://www.w3.org/WAI/fundamentals/)
+* [W3C Accessibility Fundamentals](https://www.w3.org/WAI/fundamentals/)
 * [Skip Links Technique](https://webaim.org/techniques/skipnav/)
 
