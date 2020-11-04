@@ -117,7 +117,7 @@ From Screen Readers:
 From users: 
 * Approach used by Twitter
 
-Example:[Hide elements from users](https://codepen.io/bruno-dasilva/pen/MWeBebZ)
+Example: [Hide elements from users](https://codepen.io/bruno-dasilva/pen/MWeBebZ)
 ```
 .screenreader{
     position: absolute; 
