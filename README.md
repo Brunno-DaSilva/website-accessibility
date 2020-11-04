@@ -144,7 +144,6 @@ Example:[Hide elements from users](https://codepen.io/bruno-dasilva/pen/MWeBebZ)
     <input type="radio" name="vader" id="vader" value="vader">
     <label for="vader">Darth Vader</label>
   </div>
-  
  ```
 
  ## What is Aria? 
