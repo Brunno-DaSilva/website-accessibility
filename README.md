@@ -129,8 +129,6 @@ Example: [Hide elements from users](https://codepen.io/bruno-dasilva/pen/MWeBebZ
 
 ```
 
-
-
 ### Labels
 
 
@@ -256,6 +254,12 @@ The WebAIM guidelines recommend an AA (minimum) contrast ratio of 4.5:1 for all 
 * [Design Seeds](https://www.design-seeds.com/)
 
 
+### Audits Tool 
+
+Lighthouse is an open-source, automated tool for improving the quality of web pages. You can run it against any web page, public or requiring authentication. It has audits for performance, accessibility, progressive web apps, SEO and more.
+
+* [Lighthouse](https://developers.google.com/web/tools/lighthouse)
+
 
 ## Hungry For More? 
 
@@ -265,4 +269,5 @@ Here you have extra readings with real world example of what accessibility is al
 * [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG20/)
 * [W3C Accessibility Fundamentals](https://www.w3.org/WAI/fundamentals/)
 * [Skip Links Technique](https://webaim.org/techniques/skipnav/)
+* [Lighthouse](https://developers.google.com/web/tools/lighthouse)
 
