@@ -53,7 +53,7 @@ There is also a strong business case for accessibility. As accessibility improve
 * Magnification 
 * Single switch 
 
-These are some tool and methods users utilize to browse the web and interact with a website. 
+These are some tools and methods utilized by users to browse the web and interact with a website. 
 
 
 ## Semantic HTML 
@@ -71,7 +71,7 @@ Non-Semantic HTML elements, as you might have imagine, are tags that does not co
 | `<figure>`      | Specifies self-contained content, like illustrations, photos, etc.|
 | `<footer>`      | Defines a footer for a document or section  |
 
-[More on Semantics](https://developer.mozilla.org/en-US/docs/Glossary/Semantics)
+[More on Semantics at MDN Web Docs](https://developer.mozilla.org/en-US/docs/Glossary/Semantics)
 
 
 #### Anti Patterns
@@ -112,11 +112,12 @@ It specifies an alternative text for an image, if the image cannot be displayed 
 From Screen Readers: 
 * `display: none`
 * `visibility: hidden`
-* `input hidden />` 
+* `<input type=hidden />` 
 
 From users: 
 * Approach used by Twitter
 
+Example:[Hide elements from users](https://codepen.io/bruno-dasilva/pen/MWeBebZ)
 ```
 .screenreader{
     position: absolute; 
@@ -128,7 +129,9 @@ From users:
 
 ```
 
-### Label and Aria Labels
+
+
+### Labels
 
 
 [Example of Label](https://codepen.io/bruno-dasilva/pen/wvWJNRP)
