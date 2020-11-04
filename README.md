@@ -138,12 +138,13 @@ Example:[Hide elements from users](https://codepen.io/bruno-dasilva/pen/MWeBebZ)
 
  ```
   <div>
-    <input type="radio" name="yoda" id="jedi" value="yoda">
+    <input type="radio" name="yoda" id="yoda" value="yoda">
     <label for="yoda">Yoda 💚</label>
     <br>
     <input type="radio" name="vader" id="vader" value="vader">
     <label for="vader">Darth Vader</label>
   </div>
+  
  ```
 
  ## What is Aria? 
